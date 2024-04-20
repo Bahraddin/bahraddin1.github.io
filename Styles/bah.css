@@ -1,0 +1,154 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 15%;
+    
+}
+.aboutbackgrounimage{background-image:url("im/images (9).jpeg");
+background-image:url("im/bk9.jpeg");
+background-size:100% 100%;
+}
+header h1 {
+color:rgb(5, 247, 5);
+background-color:rgb(3, 54, 71);
+text-shadow:3px 3px 3px black;
+font-family:times new roman;
+text-transform:uppercase;
+}
+header h1:hover {
+    font-size: 50px;
+    color:rgb(5, 247, 5);
+    background-color:rgb(3, 54, 71);
+    text-shadow:3px 3px 3px black;
+    font-family:times new roman;
+    text-transform:uppercase;
+    }
+    
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.secimg{
+/*background-image:url("im/bk1.jpeg");*/
+background-size:cover;
+
+}
+h1, h2 {
+    
+    color: rgb(0, 0, 0);
+    
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-up {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.sign-in {
+    background-color: #008CBA;
+    color: white;
+}
+.profile{
+height:40vh;
+
+}
+.inspirationbackground{
+background-image:url("im/R.jpg");
+
+background-size:100% 100%;
+padding:15%;
+
+}
+.exambackground{
+background-image:url("im/library.jpeg");
+background-size:100% 100%;
+padding:15%;
+}
+.question-background{
+background-image:url("images (8).jpeg");
+background-size:cover;
+padding:15%;
+}
+.question {
+       margin-bottom: 10px;
+     /*  background-color:lightblue;*/
+   }
+
+   .answer {
+       margin-bottom: 5px;
+       cursor: pointer;
+   }
+
+   .correct {
+       background-color:  green;
+   }
+
+   .wrong {
+       background-color:  red;
+   }
+
+   #results ,#table {
+       display: none;
+       margin-top: 20px;
+       padding: 10px;
+       border: 1px solid #ccc;
+       
+       
+       
+   }
+   #table{
+   display:none;
+   padding:10px;
+   margin:10px;
+   }
+table{
+    width:100%;}
+  table, th, td { 
+    border-collapse:collapse;
+    border: 1px solid rgb(255, 255, 255);
+    padding:10px;
+    margin:10px;
+    text-transform:transform;
+  }
+  table tr:nth-child(even){
+    background-color:green;
+  }
+  th{
+    background-color:aqua;}
+  table tr:nth-child(odd){
+    background-color:red;
+    
+  }
+  .examsection{
+  background:linear-gradient(30deg, #14f4f4, #f3e2d1, #14f0e4);
+  
+  }
+  .list {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  margin:0 10% 0 10%;
+  }
